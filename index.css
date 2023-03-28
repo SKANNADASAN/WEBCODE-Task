@@ -1,0 +1,129 @@
+* @import url(https://fonts.googleapis.com/css?family=Oswald|Roboto|Slabo+27px); */
+
+h2{
+  background-color: rgba(red, green, blue, alpha);
+}
+body {
+  background: #ececec;
+}
+
+.card-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 30px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  bottom: 15px;
+  width: 100%;
+  color: #fff;
+}
+
+.card {
+  max-width: 300px;
+  margin: 15px;
+  background: #fff;
+  border: 1px solid #CB6074;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .1);
+}
+
+.card:hover .card-img img {
+
+  opacity: 0.5;
+
+}
+
+.card-img {
+  position: relative;
+  text-align: center;
+  background: #CB6074;
+}
+
+img {
+  max-height: 180px;
+  width: 100%;
+  border-bottom: 4px solid #CB6074;
+}
+
+
+.card-details {
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #3C3C3C;
+  display: flex;
+}
+
+.card-details span {
+  padding: 0 25px;
+}
+
+.card-text {
+  padding: 30px 15px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
+}
+.container {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px;
+  background-color: blue;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+/* Table*/
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #CB6074;
+  color: white;
+}
+
+a {
+  color: blue;
+  cursor: pointer;
+}
